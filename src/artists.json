@@ -1,0 +1,62 @@
+[
+    {
+        "name" : "Neil Sanders",
+        "link" : "http://www.neilsanders.com.au/",
+        "img" : "shrug_minicomics.png"
+    },
+    {
+        "name" : "Mel Stringer",
+        "link" : "http://www.melstringer.com/",
+        "img" : "Mel-Stringer.png"
+    },
+    {
+        "name" : "Sarah Catherine Firth",
+        "link" : "http://www.sarahthefirth.com/",
+        "img" : "sarah-firth.png"
+    },
+    {
+        "name" : "Katie Parrish",
+        "link" : "http://katieparrishtime.tumblr.com/",
+        "img" : "mini-comic-.png"
+    },
+    {
+        "name" : "Christopher Downes",
+        "link" : "http://sirwdchosen.blogspot.com.au/",
+        "img" : "ME5(500x500).png"
+    },
+    {
+        "name" : "Soft Science",
+        "link" : "http://www.softscience.com.au/",
+        "img" : "soft_science-200x200-profile.jpg"
+    },
+    {
+        "name" : "Rebecca Clements",
+        "link" : "http://www.kinokofry.com/",
+        "img" : "diary054bottom.png"
+    },
+    {
+        "name" : "Wendy Mclean",
+        "link" : "http://wendyjune.com.au/",
+        "img" : "wendy.jpg"
+    },
+    {
+        "name" : "David C Mahler",
+        "link" : "http://davemahler.com/",
+        "img" : "DCMahler-pic.png"
+    },
+    {
+        "name" : "Erin Hunting",
+        "link" : "http://erinhunting.com/",
+        "img" : "Erin-Hunting.png"
+    },
+    {
+        "name" : "Andrew Fulton",
+        "link" : "http://mumblier.com",
+        "img" : "andrew-fulton.png"
+    },
+    {
+        "name" : "Ben Hutchings",
+        "link" : "http://www.hutcho.net/",
+        "img" : "hutcho.jpg"
+    }
+]

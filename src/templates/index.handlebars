@@ -1,0 +1,102 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        
+        <title>Minicomic of the Month Club 2012</title>
+        <meta name="description" content="An annual subscription to fine minicomics from Australian and New Zealand cartoonists and storytellers. Twelve comics from twelve artists in 2013">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+        <meta property="og:title"
+              content="Minicomic of the Month Club 2013" />
+        <meta property="og:type"
+              content="website"/>
+        <meta property="og:url"
+              content="http://minicomic.club/2013/" />
+        <meta property="og:description"
+              content="An annual subscription to fine minicomics from Australian and New Zealand cartoonists and storytellers. Twelve comics from twelve artists in 2013" />
+        <meta property="og:image"
+              content="http://minicomic.club/2013/img/{{ asset 'mcotm-2013-share.jpg' }}"/>
+
+         <meta name="twitter:card"
+               content="photo" />
+        <meta name="twitter:site"
+              content = "@smallercomics" />
+        <meta name="twitter:creator"
+              content = "@smallercomics" />
+        <meta name="twitter:title"
+              content = "Minicomic of the Month Club 2013" />
+        <meta name="twitter:image"
+              content = "http://minicomic.club/2013/img/{{ asset 'mcotm-2013-share.jpg' }}" />
+
+
+        <link rel="canonical"
+              href="http://minicomic.club/2013" />
+
+    <style>
+      @import url({{ asset 'main.css' }});
+    </style>
+        {{> typekit }}
+    </head>
+    <body>
+        {{> latest }}
+        <header>
+            <img src="img/{{ asset 'kids.png' }}" alt=""/> 
+            <h1>Mini<em>comic</em> of the Month Club <span>2013»2014</span></h1>
+            <h2>Minicomics are pretty great would you like some?</h2>
+        </header>
+        <section class="text">
+            <p><strong>Twelve minicomics</strong> from twelve different artists over twelve calendar months. Painstakingly hand-stapled probably and sent to your mailbox.</p>
+            <p>That sounds like something you would like?</p>
+            <h2>A comic from each of these people!</h2>
+            <p class="note">(In tentative order of appearance)</p>
+        </section>
+        <section>
+            <div class="artists">
+                {{#each artists}}
+                <a href="{{ link }}"><img src="img/{{ asset img }}" alt="{{ name }}"><span>{{ name }}</span></a>
+                {{/each}}
+            </div>
+        </section>
+        <section class="text">
+            <h2>Which comics?</h2>
+            <p>They haven't been drawn yet so we don't know what they'll be, except they'll be great. Minicomics are the best comics, and suprise minicomics are the best minicomics.</p>
+            <h2>Digital too?</h2>
+            <p>Ew, gross, no. Actual minicomics that you can eat.</p>
+
+            <h2>Subscribe!</h2>
+            <p>So happy you are into it.</p>
+
+            <p><strong>$26 dollars</strong> if we are sending them to Australia or New Zealand,<br>
+            <strong>$38 dollars</strong> for everywhere else on Earth.</p>
+            <p>
+                <span class="subscribe"><del>Subscribe now</del></span>
+            </p>
+        </section>
+        <section id="subscribe">
+            <div class="inner">
+                <p class="note"><strong>Subscriptions have closed</strong> for 2013-2014. Thanks to everyone who subscribed, you are all very nice.</p>
+			    {{> mailchimp }}
+                <p>You could also follow us on <a class="slink" href="https://twitter.com/smallercomics" title="follow minicomic.club on twitter">twitter</a> or <a class="slink" href="http://facebook.com/minicomic.club">facebook</a></p>
+            </div>
+        </section>
+        <section class="text">
+            <h2>♥</h2>
+        </section>
+      <footer>
+            <p>All images &copy; the respective artists. Site built by <a href="https://github.com/smallercomics/minicomic.club.2012">andrew@smallercomics.com</a></p>
+            <p>See previous years:
+                  <a title="Minicomic of the Month Club for 2017. Minicomics in the mail" href="/2017">2017</a> |
+                  <a title="Minicomic of the Month Club for 2015. Minicomics in the mail"href="/2015">2015</a> |
+                  <a title="Minicomic of the Month Club for 2014. Minicomics in the mail"href="/2014">2014</a> |
+                  <a title="Minicomic of the Month Club for 2012. Minicomics in the mail"href="/2012">2012</a> |
+            </p>
+      </footer>
+      {{> ga }}
+      <script type="text/javascript">
+        
+      </script>
+    </body>
+</html>

@@ -1,0 +1,125 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+    margin:0;
+    padding:0; 
+}
+
+h1, h2, h3 {
+  font-family: "cubano",sans-serif; }
+p {
+  font-family: "droid-serif",serif;
+  line-height: 1.4em; }
+
+h2{
+    border-top: 4px dotted;
+    color: #c66;
+}
+
+header{
+    h1{
+        margin-top:-50px;
+    }
+    img{
+        max-width:100%;
+    }
+}
+
+footer{
+    font-size: smaller;
+}
+section.text, header, footer, #subscribe .inner{
+    width:90%;
+    margin:0 auto;
+    @media screen and (min-width: 600px){
+        width: 600px;
+        padding-left: 100px;
+    }
+}
+.note{
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+.artists{
+    overflow:hidden;
+    a{
+        position:relative;
+        width:50%;
+        float:left;
+        &:nth-child(2n+3){
+            clear:both;
+        }
+        text-decoration:none;
+        color:black;
+        margin-bottom:0.5em;
+        font-family: "cubano",sans-serif;
+        img{
+            max-width:100%;
+            display:block;
+        }
+    }
+    @media screen and (min-width: 400px){
+        width:99%;
+        margin:0 auto;
+        a{
+            width:33%;
+            &:nth-child(2n+3){
+                clear:none;
+            }
+            &:nth-child(3n+4){
+                clear:both;
+            }
+        }
+    }
+    @media screen and (min-width: 600px){
+        width:600px;
+        a{
+            width:200px;
+        }
+    }
+}
+
+#mc_embed_signup{
+    text-align:left;
+    margin:0 auto;
+
+    .mc-field-group{
+        overflow:hidden;
+    }
+
+    input{
+        display:block;
+        float:left;
+    }
+
+    input[type='email']{
+        padding:10px;
+        border:0;
+        width:75%;
+    }
+    input[type='submit']{
+        width:25%;
+        padding:10px;
+        border:0;
+        border-radius:0;
+        background-color:#c66;
+        color:white;
+        cursor:pointer;
+    }
+}
+
+#subscribe{
+    
+    background-color:#F3EF7D;
+    .inner{
+        padding-top:1em;
+        padding-bottom:1em;
+    }
+}
+@import 'latest';
